@@ -1,12 +1,12 @@
-baseURL = "https://dwalkr.github.io/sawmill/"
+baseURL = "https://www.chattertots.net"
 languageCode = "en-us"
 theme = "sawmill"
-title = "Sawmill"
+title = "Chattertots"
 [Author]
-name = "DJ Walker"
+name = "Louise Hibbert"
 [[menu.main]]
 name = "View on Github"
-url = "https://github.com/dwalkr/sawmill"
+url = "https://chattertots.net"
 weight = 10
 [params]
 logo = "/logo.svg"
