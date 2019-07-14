@@ -2,6 +2,8 @@ baseURL = "https://www.chattertots.net"
 languageCode = "en-us"
 theme = "sawmill"
 title = "Chattertots"
+googleAnalytics = "UA-32275738-1"
+
 [Author]
 name = "Louise Hibbert"
 [[menu.main]]
@@ -10,3 +12,7 @@ url = "https://chattertots.net"
 weight = 10
 [params]
 logo = "/logo.svg"
+description = "Text about my cool site"
+images = ["site-feature-image.jpg"]
+[permalinks]
+  posts = "/:year/:month/:title/"

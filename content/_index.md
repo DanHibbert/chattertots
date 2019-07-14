@@ -1,15 +1,15 @@
 +++
-title = "Sawmill: A Modular Layout Builder for Hugo and Forestry.io"
+title = "Chattertots - Speech and language therapy for children in Surrey"
 type = "page"
 [[blocks]]
 background_image = "/uploads/2018/04/20/logs-splash.png"
 background_style = "Dark"
-heading = "Sawmill"
+heading = "Chattertots"
 size = "Big"
-subheading = "A Modular Layout Builder for Hugo and [Forestry.io](https://forestry.io)"
+subheading = "Speech and language therapy for children in Surrey"
 template = "hero-section"
 [[blocks]]
-content = "**Sawmill** is a simplistic Hugo theme built to take advantage of [Forestry CMS](https://forestry.io \"Forestry.io\")'s Blocks feature.\n\nThis theme includes a few basic components to get started with Blocks right away and create dynamic, visually interesting layouts. Once you get the hang of Sawmill's modular content strategy, you are encouraged to start creating your own components to fit the needs of your website."
+content = "**Chattertots** is run by Louise Hibbert, a fully qualified Speech and Language Therapist who specialises in working with children aged approximately 2 to 8 years."
 template = "body-copy"
 [[blocks]]
 background_style = "Brand Color"
