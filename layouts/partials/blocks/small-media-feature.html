@@ -1,0 +1,31 @@
+<section class="small-media-feature section {{ partial "blocks/meta/background-style" .Params.background_style }}
+{{- with .Params.image_position -}}
+    {{- if eq "Left" . }} small-media-feature--image-left{{- end -}}
+    {{- if eq "Right" . }} small-media-feature--image-right{{- end -}}
+    {{- if eq "Top" . }} small-media-feature--image-top{{- end -}}
+    {{- if eq "Bottom" . }} small-media-feature--image-bottom{{- end -}}
+{{- end -}}">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-two-fifths small-media-feature__image {{ if .Params.image_shadow }}small-media-feature__image--shadow{{ end }}">
+                <img src="{{ relURL .Params.image }}" />
+            </div>
+            <div class="column small-media-feature__content">
+                {{- with .Params.heading -}}
+                    <h2 class="title">{{ markdownify . }}</h2>
+                {{- end -}}
+                {{- with .Params.subheading -}}
+                    <h3 class="subtitle">{{ markdownify . }}</h3>
+                {{- end -}}
+                {{- with .Params.content -}}
+                    <div class="content">
+                    {{ markdownify . }}
+                    </div>
+                {{- end -}}
+                {{- if and .Params.button_url .Params.button_text -}}
+                <a class="button is-primary" href="{{ .Params.button_url }}">{{ .Params.button_text }}</a>
+                {{- end -}}
+            </div>
+        </div>
+    </div>
+</section>
