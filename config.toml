@@ -1,4 +1,4 @@
-baseURL = "https://www.chattertots.net"
+baseURL = "https://chattertots.netlify.com"
 enableRobotsTXT = true
 googleAnalytics = "UA-32275738-1"
 languageCode = "en-gb"
