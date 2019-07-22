@@ -1,48 +1,42 @@
 baseURL = "https://www.chattertots.net"
+enableRobotsTXT = true
+googleAnalytics = "UA-32275738-1"
 languageCode = "en-gb"
 theme = "sawmill"
 title = "Chattertots"
-googleAnalytics = "UA-32275738-1"
-enableRobotsTXT = true
 [Author]
 name = "Louise Hibbert"
 sectionPagesMenu = "main"
-[menu]
-  [[menu.main]]
-      weight=1
-      name = "What to expect"
-      identifier = "whattoexpect"
-      url = "/what-to-expect/"
-  [[menu.main]]
-      weight=2
-      name = "Contact"
-      identifier = "contact"
-      url = "/contact/"
-  [[menu.main]]
-      weight=3
-      name = "Qualifications"
-      identifier = "qualifications"
-      url = "/qualifications/"
-  [[menu.main]]
-      weight=4
-      name = "Testimonials"
-      identifier = "testimonials"
-      url = "/testimonials/"
-  [[menu.main]]
-      weight=5
-      name = "Terms & Conditions"
-      identifier = "termsandconditions"
-      url = "/terms-and-conditions/"
-  [[menu.main]]
-      weight=6
-      name = "Blog"
-      identifier = "blog"
-      url = "/blog/"
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 6
+[[menu.main]]
+identifier = "testimonials"
+name = "Testimonials"
+url = "/testimonials/"
+weight = 4
+[[menu.main]]
+identifier = "qualifications"
+name = "Qualifications"
+url = "/qualifications/"
+weight = 3
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact/"
+weight = 2
+[[menu.main]]
+identifier = "whattoexpect"
+name = "What to expect"
+url = "/what-to-expect/"
+weight = 1
 [params]
-logo = "/chattertotslogo.svg"
 description = "Speech and Language Therapy in Surrey"
 images = ["site-feature-image.jpg"]
+logo = "/chattertotslogo.svg"
 [permalinks]
-  posts = "/:year/:month/:title/"
+posts = "/:year/:month/:title/"
 [sitemap]
-  filename = "sitemap.xml"
+filename = "sitemap.xml"
