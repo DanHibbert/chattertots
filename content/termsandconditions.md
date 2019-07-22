@@ -9,7 +9,7 @@ identifier = "termsandconditions"
 name = "Terms & Conditions"
 weight = 5
 [[blocks]]
-background_image = "/uploads/2018/04/20/logs-splash.png"
+background_image = "/site-images/orange-background.jpg"
 background_style = "Dark"
 heading = "Terms and Conditions"
 size = "Big"
