@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Louise Hibbert
+N;CHARSET=UTF-8:Hibbert;Louise;;Mrs;
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:dan.hibbert@gmail.com
+EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:chattertots@gmail.com
+TEL;TYPE=HOME,VOICE:+441483389949
+ADR;CHARSET=UTF-8;TYPE=HOME:;;;Hydestile;;;
+ADR;CHARSET=UTF-8;TYPE=WORK:;;2 Greydene\, Salt Lane;Hydestile;Surrey;GU8 4DF;United Kingdom
+TITLE;CHARSET=UTF-8:Speech and Language Therapy in Surrey
+ROLE;CHARSET=UTF-8:Speech and Language Therapist
+ORG;CHARSET=UTF-8:Chattertots
+URL;type=WORK;CHARSET=UTF-8:https://www.chattertots.net
+REV:2019-07-22T19:49:04.125Z
+END:VCARD

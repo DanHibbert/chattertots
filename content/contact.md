@@ -15,7 +15,7 @@ width= "600"
 height = "450"
 frameborder = "0"
 style = "border:0"
-leftcontent = "**Telephone**\n\n[01483 389949](tel:+44389949)\n\n**Email**\n\n[chattertots@gmail.com](mailto:chattertots@gmail.com)\n\n**Facebook**\n\n[Chattertots Speech & Language Therapy](https://www.facebook.com/speechtherapysurrey)"
+leftcontent = "**Telephone**\n\n[01483 389949](tel:+44389949)\n\n**Email**\n\n[chattertots@gmail.com](mailto:chattertots@gmail.com)\n\n**Facebook**\n\n[Chattertots Speech & Language Therapy](https://www.facebook.com/speechtherapysurrey)\n\n[Add me to your contacts](/Chattertots.vcf)"
 rightcontent = "**Address**\n\nLouise Hibbert\n\nSpeech and Language Therapist\n\nChattertots Speech and Language Therapy\n\nHydestile, Godalming\n\nSurrey\n\nGU8 4DF"
 template = "contact-details"
 +++
