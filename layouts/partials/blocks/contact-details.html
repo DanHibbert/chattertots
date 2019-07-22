@@ -1,0 +1,15 @@
+<section class="section content-section">
+    <div class="columns">
+        <div class="column{{- with .Params.leftcontentsize -}}{{  .Params.leftcontentsize }}{{- end -}}">
+            <div class="content">
+                    {{ markdownify .Params.leftcontent }}
+            </div>
+        </div>
+        <div class="column{{- with .Params.rightcontentsize -}}{{  .Params.rightcontentsize }}{{- end -}}">
+            <div class="content">
+                    {{ markdownify .Params.rightcontent }}
+                    <iframe src="{{.Params.src}}" width="{{.Params.width}}" height="{{.Params.height}}" frameborder="{{.Params.frameborder}}" style="{{.Params.style}}" allowfullscreen></iframe>
+                </div>
+        </div>
+    </div>
+</section>

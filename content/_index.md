@@ -1,48 +1,22 @@
 +++
-title = "Sawmill: A Modular Layout Builder for Hugo and Forestry.io"
+title = "Chattertots - Speech and language therapy for children in Surrey"
 type = "page"
 [[blocks]]
 background_image = "/uploads/2018/04/20/logs-splash.png"
 background_style = "Dark"
-heading = "Sawmill"
+heading = "Chattertots"
 size = "Big"
-subheading = "A Modular Layout Builder for Hugo and [Forestry.io](https://forestry.io)"
-template = "hero-section"
-[[blocks]]
-content = "**Sawmill** is a simplistic Hugo theme built to take advantage of [Forestry CMS](https://forestry.io \"Forestry.io\")'s Blocks feature.\n\nThis theme includes a few basic components to get started with Blocks right away and create dynamic, visually interesting layouts. Once you get the hang of Sawmill's modular content strategy, you are encouraged to start creating your own components to fit the needs of your website."
-template = "body-copy"
-[[blocks]]
-background_style = "Brand Color"
-heading = "Features"
-size = "Small"
+subheading = "Speech and language therapy for children in Surrey"
 template = "hero-section"
 [[blocks]]
 background_style = "Light"
-content = "[Bulma](https://bulma.io/) is a modern, responsive CSS framework with a flexbox-based grid system. "
-heading = "Built With Bulma"
-image = "/uploads/2018/04/19/bulma-logo.png"
-image_position = "Left"
-template = "media-feature"
-[[blocks]]
-background_style = "Light"
-content = "The theme's primary color and logo are customizable from your `config.toml` file."
-heading = "Customizable Branding"
-image = "/uploads/2018/04/19/headingcolors-1.png"
+content = "Chattertots is run by Louise Hibbert, a fully qualified Speech and Language Therapist who specialises in working with children aged approximately 2 to 8 years."
+image = "/site-images/LouiseHibbert.jpg"
 image_position = "Right"
 image_shadow = true
-template = "media-feature"
+image_alt_text = "image of Louise Hibbert"
+template = "small-media-feature"
 [[blocks]]
-background_style = "Dark"
-content = "This theme is designed to work out-of-the-box with [Forestry.io's](https://forestry.io) **Blocks** feature. Just copy the theme's `.forestry/front_matter/templates` directory into the top level of your project, or get started even faster with the [starter project](https://github.com/dwalkr/sawmill-starter)."
-heading = "Made For Forestry"
-image = "/uploads/2018/04/19/blocks-ss.png"
-image_position = "Left"
-image_shadow = true
-template = "media-feature"
-[[blocks]]
-button_text = "View on Github"
-button_url = "https://github.com/dwalkr/sawmill"
-heading = "Let's Get Started"
-template = "call-to-action"
-
+content = "I am experienced in providing assessment and treatment for a wide range of speech, language and communication difficulties, with a particular interest in speech delay/disorder.\n\nI provide private therapy at my home-based clinic in Godalming and assessment in your home, covering Witley, Chiddingfold, Haslemere, Hindhead, Elstead, Farnham, Ash, Worplesdon, Guildford, Shalford, Chilworth, Shere, Cranleigh and surrounding areas in West Surrey and parts of North-East Hampshire.\n\nIf you would like to discuss your child and what I can offer, please feel free to contact me by [phone](tel:+441483389949) or [email](mailto:chattertots@gmail.com)."
+template = "body-copy"
 +++

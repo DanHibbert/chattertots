@@ -1,12 +1,48 @@
 baseURL = "https://www.chattertots.net"
-languageCode = "en-us"
+languageCode = "en-gb"
 theme = "sawmill"
 title = "Chattertots"
+googleAnalytics = "UA-32275738-1"
+enableRobotsTXT = true
 [Author]
 name = "Louise Hibbert"
-[[menu.main]]
-name = "View on Github"
-url = "https://chattertots.net"
-weight = 10
+sectionPagesMenu = "main"
+[menu]
+  [[menu.main]]
+      weight=1
+      name = "What to expect"
+      identifier = "whattoexpect"
+      url = "/what-to-expect/"
+  [[menu.main]]
+      weight=2
+      name = "Contact"
+      identifier = "contact"
+      url = "/contact/"
+  [[menu.main]]
+      weight=3
+      name = "Qualifications"
+      identifier = "qualifications"
+      url = "/qualifications/"
+  [[menu.main]]
+      weight=4
+      name = "Testimonials"
+      identifier = "testimonials"
+      url = "/testimonials/"
+  [[menu.main]]
+      weight=5
+      name = "Terms & Conditions"
+      identifier = "termsandconditions"
+      url = "/terms-and-conditions/"
+  [[menu.main]]
+      weight=6
+      name = "Blog"
+      identifier = "blog"
+      url = "/blog/"
 [params]
-logo = "/logo.svg"
+logo = "/chattertotslogo.svg"
+description = "Speech and Language Therapy in Surrey"
+images = ["site-feature-image.jpg"]
+[permalinks]
+  posts = "/:year/:month/:title/"
+[sitemap]
+  filename = "sitemap.xml"
