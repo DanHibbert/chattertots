@@ -1,16 +1,16 @@
-<section class="small-media-feature section {{ partial "blocks/meta/background-style" .Params.background_style }}
+<section class="media-feature section {{ partial "blocks/meta/background-style" .Params.background_style }}
 {{- with .Params.image_position -}}
-    {{- if eq "Left" . }} small-media-feature--image-left{{- end -}}
-    {{- if eq "Right" . }} small-media-feature--image-right{{- end -}}
-    {{- if eq "Top" . }} small-media-feature--image-top{{- end -}}
-    {{- if eq "Bottom" . }} small-media-feature--image-bottom{{- end -}}
+    {{- if eq "Left" . }} media-feature--image-left{{- end -}}
+    {{- if eq "Right" . }} media-feature--image-right{{- end -}}
+    {{- if eq "Top" . }} media-feature--image-top{{- end -}}
+    {{- if eq "Bottom" . }} media-feature--image-bottom{{- end -}}
 {{- end -}}">
     <div class="container">
         <div class="columns">
-            <div class="column is-one-fifth small-media-feature__image {{ if .Params.image_shadow }}small-media-feature__image--shadow{{ end }}">
+            <div class="column is-one-fifth media-feature__image {{ if .Params.image_shadow }}media-feature__image--shadow{{ end }}">
                 <img src="{{ relURL .Params.image }}" alt="{{ .Params.image_alt_text }}" />
             </div>
-            <div class="column small-media-feature__content">
+            <div class="column media-feature__content">
                 {{- with .Params.heading -}}
                     <h2 class="title">{{ markdownify . }}</h2>
                 {{- end -}}

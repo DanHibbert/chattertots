@@ -10,14 +10,13 @@ subheading = "Speech and language therapy for children in Surrey"
 template = "hero-section"
 [[blocks]]
 background_style = "Light"
-content = "is run by Louise Hibbert, a fully qualified Speech and Language Therapist who specialises in working with children aged approximately 2 to 8 years."
-heading = "Chattertots"
+content = "Chattertots is run by Louise Hibbert, a fully qualified Speech and Language Therapist who specialises in working with children aged approximately 2 to 8 years."
 image = "/site-images/LouiseHibbert.jpg"
-image_position = "Left"
+image_position = "Right"
 image_shadow = true
 image_alt_text = "image of Louise Hibbert"
 template = "small-media-feature"
 [[blocks]]
-content = "I am experienced in providing assessment and treatment for a wide range of speech, language and communication difficulties, with a particular interest in speech delay/disorder. I provide private therapy at my home-based clinic in Godalming and assessment in your home, covering Witley, Chiddingfold, Haslemere, Hindhead, Elstead, Farnham, Ash, Worplesdon, Guildford, Shalford, Chilworth, Shere, Cranleigh and surrounding areas in West Surrey and parts of North-East Hampshire. If you would like to discuss your child and what I can offer, please feel free to contact me by **phone** or **email**."
+content = "I am experienced in providing assessment and treatment for a wide range of speech, language and communication difficulties, with a particular interest in speech delay/disorder.\n\nI provide private therapy at my home-based clinic in Godalming and assessment in your home, covering Witley, Chiddingfold, Haslemere, Hindhead, Elstead, Farnham, Ash, Worplesdon, Guildford, Shalford, Chilworth, Shere, Cranleigh and surrounding areas in West Surrey and parts of North-East Hampshire.\n\nIf you would like to discuss your child and what I can offer, please feel free to contact me by **phone** or **email**."
 template = "body-copy"
 +++
