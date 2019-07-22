@@ -2,12 +2,14 @@
 title = "Chattertots - Speech and language therapy for children in Surrey"
 type = "page"
 [[blocks]]
+template = "hero-section"
 background_image = "/uploads/2018/04/20/logs-splash.png"
 background_style = "Dark"
 heading = "Chattertots"
 size = "Big"
 subheading = "Speech and language therapy for children in Surrey"
-template = "hero-section"
+button_url = "tel:+441483389949"
+button_text = "Please call to discuss your child"
 [[blocks]]
 background_style = "Light"
 content = "Chattertots is run by Louise Hibbert, a fully qualified Speech and Language Therapist who specialises in working with children aged approximately 2 to 8 years."
