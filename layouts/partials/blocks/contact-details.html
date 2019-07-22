@@ -1,14 +1,15 @@
 <section class="section content-section">
-    <div class="container">
-        <div class="content">
-                {{- if .Params.email -}}
-                <div class="email"><a itemprop="email" href="mailto:{{ .Params.email }}"><i class="email icon-envelope-alt icon-2x"></i>Send email</a></div>
-            {{- end -}}
-            {{- if and .Params.phone .Params.phone_description -}}
-            <span class="icon has-text-info">
-                    <i class="fas fa-info-circle"></i>
-                  </span>
-                <div class="phone"><a itemprop="telephone" href="tel:{{ .Params.phone }}"><i class="email icon-envelope-alt icon-2x"></i>{{ .Params.phone_description }}</a></div>
-            {{- end -}}
+    <div class="columns">
+        <div class="column{{- with .Params.leftcontentsize -}}{{  .Params.leftcontentsize }}{{- end -}}">
+            <div class="content">
+                    {{ markdownify .Params.leftcontent }}
+            </div>
+        </div>
+        <div class="column{{- with .Params.rightcontentsize -}}{{  .Params.rightcontentsize }}{{- end -}}">
+            <div class="content">
+                    {{ markdownify .Params.rightcontent }}
+                    <iframe src="{{.Params.src}}" width="{{.Params.width}}" height="{{.Params.height}}" frameborder="{{.Params.frameborder}}" style="{{.Params.style}}" allowfullscreen></iframe>
+                </div>
+        </div>
     </div>
 </section>

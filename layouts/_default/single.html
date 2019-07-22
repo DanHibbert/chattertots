@@ -6,7 +6,8 @@
         {{- if eq .template "small-media-feature" -}}{{ partial "blocks/small-media-feature" (dict "Params" .) }}{{- end -}}
         {{- if eq .template "call-to-action" -}}{{ partial "blocks/cta" (dict "Params" .) }}{{- end -}}
         {{- if eq .template "body-copy" -}}{{ partial "blocks/content" (dict "Params" .) }}{{- end -}}
-        {{- if eq .template "google-maps" -}}{{ partial "blocks/google-maps" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "body-copy-two-column" -}}{{ partial "blocks/content-two-column" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "body-copy-three-column" -}}{{ partial "blocks/content-three-column" (dict "Params" .) }}{{- end -}}
         {{- if eq .template "contact-details" -}}{{ partial "blocks/contact-details" (dict "Params" .) }}{{- end -}}
     {{- end -}}
 </div>

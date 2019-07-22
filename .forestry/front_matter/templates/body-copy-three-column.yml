@@ -1,0 +1,26 @@
+---
+label: Three Column Body copy
+hide_body: false
+display_field: content
+fields:
+- type: textarea
+  name: leftcontent
+  label: Left Content
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: textarea
+  name: middlecontent
+  label: Middle Content
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: textarea
+  name: rightcontent
+  label: Right Content
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
