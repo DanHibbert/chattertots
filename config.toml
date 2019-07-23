@@ -10,33 +10,38 @@ sectionPagesMenu = "main"
 [[menu.main]]
 identifier = "blog"
 name = "Blog"
-url = "/blog/"
+url = "/blog"
 weight = 6
+[[menu.main]]
+identifier = "termsandconditions"
+name = "Terms & Conditions"
+url = "/terms-and-conditions"
+weight = 5
 [[menu.main]]
 identifier = "testimonials"
 name = "Testimonials"
-url = "/testimonials/"
+url = "/testimonials"
 weight = 4
 [[menu.main]]
 identifier = "qualifications"
 name = "Qualifications"
-url = "/qualifications/"
+url = "/qualifications"
 weight = 3
 [[menu.main]]
 identifier = "contact"
 name = "Contact"
-url = "/contact/"
+url = "/contact"
 weight = 2
 [[menu.main]]
 identifier = "whattoexpect"
 name = "What to expect"
-url = "/what-to-expect/"
+url = "/what-to-expect"
 weight = 1
 [params]
 description = "Speech and Language Therapy in Surrey"
 images = ["site-feature-image.jpg"]
 logo = "/chattertotslogo.svg"
 [permalinks]
-posts = "/:year/:month/:title/"
+posts = "/:year/:month/:title"
 [sitemap]
 filename = "sitemap.xml"

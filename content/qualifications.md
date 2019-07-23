@@ -1,13 +1,14 @@
 +++
-title = "Qualifications"
+title = "Chattertots - Qualifications"
 date = 2019-07-22T09:28:17+01:00
 type = "page"
 slug = "qualifications"
 [[blocks]]
 background_image = "/site-images/green-background.jpg"
 background_style = "Dark"
-heading = "Qualifications"
-size = "Big"
+heading = "What are my qualifications to help your child?"
+button_text = "Get in touch"
+button_url = "tel:+441483389949"
 template = "hero-section"
 [[blocks]]
 template = "body-copy"

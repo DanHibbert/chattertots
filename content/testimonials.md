@@ -1,13 +1,14 @@
 +++
-title = "Testimonials"
+title = "Chattertots - Testimonials"
 date = 2019-07-22T09:28:17+01:00
 type = "page"
 slug = "testimonials"
 [[blocks]]
-background_image = "/site-images/pink-background.jpg"
+background_image = "/site-images/red-background.jpg"
 background_style = "Dark"
-heading = "Testimonials"
-size = "Big"
+heading = "What parents have said about my work"
+button_text = "Get in touch"
+button_url = "tel:+441483389949"
 template = "hero-section"
 [[blocks]]
 template = "body-copy"

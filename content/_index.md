@@ -2,10 +2,9 @@
 title = "Chattertots - Speech and language therapy for children in Surrey"
 type = "page"
 [[blocks]]
-background_image = "/site-images/blue-background.jpg"
+background_image = "/site-images/rainbow-background.jpg"
 background_style = "Dark"
 heading = "Chattertots"
-size = "Big"
 subheading = "Speech and language therapy for children in Surrey"
 template = "hero-section"
 button_text = "Get in touch"

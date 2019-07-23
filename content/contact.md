@@ -1,13 +1,14 @@
 +++
-title = "Contact"
+title = "Chattertots - Contact"
 date = 2019-07-22T09:28:17+01:00
 type = "page"
 slug = "contact"
 [[blocks]]
-background_image = "/site-images/yellow-background.jpg"
+background_image = "/site-images/purple-background.jpg"
 background_style = "Dark"
 heading = "Let's talk!"
-size = "Big"
+button_text = "Get in touch"
+button_url = "tel:+441483389949"
 template = "hero-section"
 [[blocks]]
 src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2502.410743075597!2d-0.6155850839514836!3d51.156216579578924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875d1de8417fb71%3A0xeeba66052546eaa8!2sChattertots+Speech+%26+Language+Therapy!5e0!3m2!1sen!2suk!4v1563807803950!5m2!1sen!2suk"

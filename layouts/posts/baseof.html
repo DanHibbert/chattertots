@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+    {{ partial "head" . }}
+    <body>
+        {{- if ne .Page.Kind "404" -}}
+            {{ partial "nav" . }}
+        {{- end -}}
+        <main id="primary-content">
+            {{block "main" . }}{{ end }}
+        </main>
+        {{ partial "footer" . }}
+        <script>
+            if('serviceWorker' in navigator) {
+                navigator.serviceWorker
+                    .register('/sw.js', { scope: '/' })
+                    .then(function(registration) {
+                        console.log('Service Worker Registered');
+                    });
+        
+                navigator.serviceWorker
+                    .ready
+                    .then(function(registration) {
+                        console.log('Service Worker Ready');
+                    });
+            }
+        </script>
+    </body>
+</html>
